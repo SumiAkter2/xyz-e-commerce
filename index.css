@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.common-font-style {
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner {
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 500px;
+
+}
+.banner h1{
+color: #4285f4;
+}
+.banner-text{
+    position: absolute;
+    left: 0;
+
+}
+.nav-bar {
+   background-color: gainsboro;
+    
+}
+
+.header-text {
+    font-family: sans-serif;
+   color: red;
+}
+
+.header-text-color {
+    color: rgb(243, 63, 213);
+}
+
+.banner {
+
+    height: calc(100vh-80px);
+}
+
+.footer-bg {
+    background-color: rgb(63, 22, 63);
+    color: rgb(243, 63, 213);
+}
+
+.arrow a:active {
+    transform: rotate(180deg);
+}
+
+.contact-us {
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
